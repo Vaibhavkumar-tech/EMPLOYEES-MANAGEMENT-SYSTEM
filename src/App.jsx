@@ -57,7 +57,12 @@ const App = () => {
   }
      
 useEffect(() => {
-   SetLocalStorage();
+   const data = localStorage.getItem("employees");
+
+   if (!data) {
+      SetLocalStorage();
+   }
+
    getLocalStorage();
 }, []);
 
