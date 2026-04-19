@@ -56,10 +56,10 @@ const App = () => {
     }
   }
      
-    useEffect(() => {
-    SetLocalStorage();
+useEffect(() => {
+   SetLocalStorage();
    getLocalStorage();
-  },)
+}, []);
 
   return (
     <>  
