@@ -309,6 +309,7 @@ const admin=[{
 export const SetLocalStorage = () => {
   if (!localStorage.getItem("employees")) {
     localStorage.setItem("employees", JSON.stringify(employees));
+    console.log("running")
   }
 
   if (!localStorage.getItem("admin")) {
