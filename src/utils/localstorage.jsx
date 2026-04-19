@@ -307,8 +307,8 @@ const admin=[{
 
 
 export const SetLocalStorage=()=>{
-    localStorage.setItem("employees",JSON.stringify(employees));
-    localStorage.setItem("admin",JSON.stringify(admin));
+    window.localStorage.setItem("employees",JSON.stringify(employees));
+    window.localStorage.setItem("admin",JSON.stringify(admin));
 }
 export const getLocalStorage=()=>{
     const employees = JSON.parse(localStorage.getItem("employees"));
