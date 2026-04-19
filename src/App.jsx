@@ -55,14 +55,11 @@ const App = () => {
       alert("Invalid credentials");
     }
   }
- 
-  useEffect(()=>{
-/*     if(!AuthData){
-      localStorage.clear(); */   
-      SetLocalStorage();
-      getLocalStorage();
-    
-  })
+    localStorage.clear();   
+    useEffect(() => {
+    SetLocalStorage();
+   getLocalStorage();
+  },)
 
   return (
     <>  
