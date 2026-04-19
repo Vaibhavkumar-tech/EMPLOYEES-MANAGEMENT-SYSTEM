@@ -57,11 +57,11 @@ const App = () => {
   }
  
   useEffect(()=>{
-    if(!AuthData){
-      localStorage.clear();   
+/*     if(!AuthData){
+      localStorage.clear(); */   
       SetLocalStorage();
       getLocalStorage();
-    }
+    
   })
 
   return (
