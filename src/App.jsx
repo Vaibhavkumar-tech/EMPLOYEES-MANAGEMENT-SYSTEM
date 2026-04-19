@@ -60,6 +60,7 @@ useEffect(() => {
    SetLocalStorage();
    getLocalStorage();
 }, []);
+LocalStrorage.setItem("vaibhav","hxvee");
 
   return (
     <>  
