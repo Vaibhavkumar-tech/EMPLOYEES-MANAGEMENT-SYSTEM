@@ -60,7 +60,7 @@ useEffect(() => {
    SetLocalStorage();
    getLocalStorage();
 }, []);
-LocalStrorage.setItem("vaibhav","hxvee");
+localStorage.setItem("employees","cvyuyfyf");
 
   return (
     <>  
