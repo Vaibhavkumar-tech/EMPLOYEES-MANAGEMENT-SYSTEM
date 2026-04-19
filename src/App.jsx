@@ -55,7 +55,7 @@ const App = () => {
       alert("Invalid credentials");
     }
   }
-    localStorage.clear();   
+     
     useEffect(() => {
     SetLocalStorage();
    getLocalStorage();
